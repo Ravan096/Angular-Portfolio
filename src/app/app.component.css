@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-color: black;
+}
+
+
+
+/* -----------------header styling start here---------------- */
+
+.app-header{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.app-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 70%;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+
+.logo-box{
+    color: white;
+    /* border: 1px solid white; */
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >a img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+.header-info-list{
+    width: 20%;
+    /* border: 1px solid white; */
+}
+
+.header-info-list ul li{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+.header-menu{
+    /* border: 1px solid white; */
+    width: 60%;
+    >nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        >li {
+            list-style-type: none;
+            >a{
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+            padding-bottom: 5px;
+            background-size: 0% 2px;
+            background-image: linear-gradient(to right, #8750f7, white);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            transition: background-size 0.4s ease-out;
+
+            &:hover{
+                background-size: 100% 2px; 
+            }
+
+            }
+
+        }
+    }
+}
+
+
+
+
+.header-button-div{
+    /* border: 1px solid white; */
+    width: 10%;
+}
+
+.header-button {
+    padding: 1.7vh 3.5vh;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #8750f7, black);
+    border: none;
+    display: inline-block;
+    transition: background-image 0.5s ease-out; 
+     a {
+        color: white;
+        text-decoration: none;
+        font-size:1.6vh;
+        font-weight: 700;
+    }
+    &:hover{
+        background-image: linear-gradient(to right, black, #8750f7);
+    }
+}
+
+
+
+
+
+/* --------------------hero section styling------------------------- */
+
+.hero-section{
+    /* border: 1px solid white; */
+    color: white;
+    height: 90vh;
+}
+
+.hero-section-container{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-section-container-first-div{
+    /* border: 2px solid rgb(43, 220, 20); */
+    display: flex;
+    >div:first-child{
+        /* border: 2px solid salmon; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        >div{
+            /* border: 2px solid rgb(43,2220,20); */
+            width: 65%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            >span{
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: rgb(207, 203, 203);
+            }
+            >h1{
+                font-size: 4rem;
+                background: linear-gradient(to right, #8750f7, white);
+                -webkit-background-clip: text;
+                color: transparent;
+                background-clip: text;
+            }
+            >p{
+                color: rgb(207, 206, 206);
+                font-size: larger;
+                font-family: sans-serif;
+            }
+            .hero-section-container-first-div-button-section{
+                /* border: 2px solid white; */
+                color:#8750f7;
+                display: flex;
+                >a{
+                    color: #8750f7;
+                    width: 30%;
+                    border: 1px solid #8750f7;
+                    text-decoration: none;
+                    padding: 1.5vh 2vh;
+                    font-size: 2vh;
+                    text-align: center;
+                    border-radius: 25px;
+                    transition: background-color 0.5s ease-out;
+                        transition: all 0.5s;
+                    &:hover{
+                        background-color: #8750f7;
+                        color: white;
+                    }
+                }
+                >ul{
+                    color: #8750f7;
+                    width: 70%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    list-style-type: none;
+                    >li a{
+                        border: 1px solid #8750f7;
+                        padding: 1vh;
+                        height: 1.5vh;
+                        width: 1.5vh;
+                        border-radius: 100%;
+                        transition: background-color 0.5s ease-out;
+                        transition: all 0.5s;
+                        &:hover{
+                            background-color: #8750f7;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+    >div:last-child{
+        /* border:  2px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        >div{
+            border: 2px solid #654f8f ;
+            height: 50vh;
+            width: 25vw;
+            border-radius: 40px;
+            transform: skew(-0.01turn, 5deg);
+            transition: all 0.3s;
+
+            &:hover{
+                border: 2px solid #7f45f3;
+                 transform: skew(-0.0turn, 0deg);
+
+            }
+            >img{
+                height: 50vh;
+                width: 25vw;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+.hero-section-container-second-div{
+    /* border: 2px solid greenyellow; */
+
+    >div{
+        /* border: 2px solid indianred; */
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .hero-section-container-second-div-container{
+            /* border: 2px solid grey; */
+            width: 25%;
+            height: 100%;
+            >div{
+                /* border: 2px solid yellow; */
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around; 
+                >h1{
+                    font-size: 4rem;
+                    font-weight: 700;
+                    >span{
+                        font-size: 4rem;
+                        font-weight: 700;
+                    }
+                }
+                >p{
+                    font-size: larger;
+                    font-weight: 500;
+                    color: rgb(209, 203, 203);
+                }
+                    
+            }
+        }
+    }
+}
+
+
+
+/*  ----------------hero section end here---------------- */
+
+
+
+/* --------------service section style start here------------------ */
+
+.services-section{
+    /* border: 2px solid white; */
+    margin-top: 5vh;
+    color:  white;
+
+    >div{
+        /* border: 2px solid rgb(247, 128, 128); */
+
+        >div:first-child{
+            /* border: 2px solid greenyellow; */
+            >div{
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 4rem 0rem;
+                    >h2{
+                        font-size: 3rem;
+                background: linear-gradient(to right, #8750f7, white);
+                -webkit-background-clip: text;
+                color: transparent;
+                background-clip: text;
+                    }
+                    >p{
+                        color: rgb(207, 206, 206);
+                font-size: larger;
+                font-family: sans-serif;
+                    }
+                }
+            }
+        }
+
+
+
+
+        >div:last-child{
+            /* border: 2px solid crimson; */
+            >div{
+                >div{
+                    /* border: 1px solid darkcyan; */
+                    width: 80%;
+                    height: 100%;
+                    margin: auto;
+                    .fadeInUp{
+                        border-bottom: 1px solid grey;
+                        padding: 1rem 0rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        transition: all 0.3s;
+                        >div:first-child{
+                            box-sizing: border-box;
+                            width: 30%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            >span{
+                                font-size: 1.5rem;
+                                font-weight: 700;
+                            }
+                            >h3{
+                                font-size: 2rem;
+                                font-weight: 700;
+                                margin-left: 2rem;
+                            }
+                        }
+                        .right-box{
+                            width: 35%;
+                            height: 100%;
+                            /* border: 1px solid white; */
+                            padding: 2rem;
+                            /* box-sizing: border-box; */
+                            >p{
+                                font-size: 1rem;
+                                font-family: sans-serif;
+                                letter-spacing: 1px;
+                                line-height: 1.2rem;
+                            }
+                        }
+                        >button{
+                            color: white;
+                            border: none;
+                            background-color: black;
+                            >i{
+                                font-size: 3rem;
+                                color: white;
+                                background-color: black;
+                                transform: rotate(-50deg);
+                                transition: all 0.5s;
+                            }
+                        }
+                        &:hover{
+                            background: linear-gradient(to right, #8750f7, #2a1454);
+
+                            >button{
+                                background-color: #321961;
+                                >i{
+                                    background-color: #321961;
+                                transform: rotate(50deg);
+                                }
+                            }
+                        }
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}
