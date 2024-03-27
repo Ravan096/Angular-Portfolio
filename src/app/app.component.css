@@ -401,3 +401,160 @@ main{
         }
     }
 }
+
+/* ----------------service section style end-------------- */
+
+.resume-section{
+    /* border: 2px solid greenyellow; */
+    height: 80vh;
+    box-sizing: border-box;
+    >div{
+        height: 100%;
+        >div{
+            /* border: 2px solid white; */
+            width: 70%;
+            height: 100%;
+            color: wheat;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+            box-sizing: border-box;
+
+            >div:first-child{
+                /* border: 2px solid sandybrown; */
+                width: 45%;
+                height: 100%;
+                box-sizing: border-box;
+                >:first-child{
+                    /* border: 2px solid white; */
+                    height: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    >h2{
+                        font-size: 3rem;
+                        background: linear-gradient(to right, #8750f7, white);
+                        -webkit-background-clip: text;
+                        color: transparent;
+                        background-clip: text;
+                    }
+                }
+
+                >:last-child{
+                    /* border: 2px solid rgb(187, 56, 56); */
+                    height: 80%;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    >.fadeInLeft{
+                        color: white;
+                        width: 90%;
+                        /* border: 1px solid crimson; */
+                        width: 100%;
+                        height: 22%;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        transition: all 0.5s ease-out;
+                        border-radius: 25px;
+                        >div:first-child{
+                            font-size: 1.5rem;
+                            font-weight: 600;
+                            color: #8750f7;
+                            margin-left: 2rem;
+                        }
+                        >h3{
+                            font-size: 1.7rem;
+                            text-transform: uppercase;
+                            margin-left: 2rem;
+                        }
+                        >div:last-child{
+                            color: rgb(185, 179, 179);
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            margin-left: 2rem;
+                        }
+
+                        &:hover{
+                            background: linear-gradient(to right, #8750f7, #2a1454);
+                            >div:first-child{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            >div:last-child{
+                /* border: 2px solid saddlebrown; */
+                width: 45%;
+                height: 100%;
+                box-sizing: border-box;
+                >:first-child{
+                    /* border: 2px solid white; */
+                    height: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    >h2{
+                        font-size: 3rem;
+                        background: linear-gradient(to right, #8750f7, white);
+                        -webkit-background-clip: text;
+                        color: transparent;
+                        background-clip: text;
+                    }
+                }
+
+                >:last-child{
+                    /* border: 2px solid rgb(187, 56, 56); */
+                    height: 80%;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    >.fadeInRight{
+                        color: white;
+                        width: 90%;
+                        /* border: 1px solid crimson; */
+                        width: 100%;
+                        height: 22%;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        transition: all 0.5s ease-out;
+                        border-radius: 25px;
+                        >div:first-child{
+                            font-size: 1.5rem;
+                            font-weight: 600;
+                            color: #8750f7;
+                            margin-left: 2rem;
+                        }
+                        >h3{
+                            font-size: 1.7rem;
+                            text-transform: uppercase;
+                            margin-left: 2rem;
+                        }
+                        >div:last-child{
+                            color: rgb(185, 179, 179);
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            margin-left: 2rem;
+                        }
+
+                        &:hover{
+                            background: linear-gradient(to right, #8750f7, #2a1454);
+                            >div:first-child{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
