@@ -404,6 +404,11 @@ main{
 
 /* ----------------service section style end-------------- */
 
+
+
+
+/* ----------------resume section style start here------------- */
+
 .resume-section{
     /* border: 2px solid greenyellow; */
     height: 80vh;
@@ -554,6 +559,130 @@ main{
                     }
                 }
                 
+            }
+        }
+    }
+}
+
+/* -----------------------resume section style end here--------------------- */
+
+
+
+/* ------------------------skill section style start here------------------- */
+
+
+
+.skills-section{
+    /* border: 2px solid red; */
+    color: white;
+    height: 60vh;
+    margin-top: 5rem;
+    >div{
+        height: 100%;
+        box-sizing: border-box;
+        
+        >div:first-child{
+            /* border: 2px solid purple; */
+            width: 80%;
+            margin: auto;
+            height: 30%;
+            box-sizing: border-box;
+            >div{
+                height: 100%;
+                >div{
+                    width: 40%;
+                    /* border: 1px solid white; */
+                    height: 100%;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    >h2{
+                        font-size: 3rem;
+                        background: linear-gradient(to right, #8750f7, white);
+                        -webkit-background-clip: text;
+                        color: transparent;
+                        background-clip: text;
+                    }
+                    >p{
+                        text-align: center;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        color: rgb(196, 191, 191);
+                    }
+                }
+            }
+        }
+
+        >div:last-child{
+            /* border: 2px solid green; */
+            width: 80%;
+            margin: auto;
+            height: 70%;
+            box-sizing: border-box;
+            >div{
+                height: 100%;
+                >div{
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    >.skill-item{
+                        /* border: 2px solid greenyellow; */
+                        height: 55%;
+                        width: 12%;
+                        border-radius: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        >div{
+                            display: flex;
+                            flex-direction:column;
+                            align-items: center;
+                            justify-content: space-around;
+                            background-color: #140c1c;
+                            border-radius: 25px;
+                            width: 100%;
+                            height: 80%;
+                            border: none;
+                            transition: all 0.3s;
+
+                            &:hover{
+                                background-color:#321961;
+                                border:1px solid #8750f7;
+                                >div:first-child{
+                                    >img{
+                                        filter: grayscale(0%);
+                                    }
+                                }
+                                >div:last-child{
+                                    color: #8750f7;
+                                }
+                            }
+
+                            >div:first-child{
+                                >img{
+                                    height: 60px;
+                                    width: 60px;
+                                    filter: grayscale(80%);
+                                }
+
+                            }
+
+                            >div:last-child{
+                                color: rgb(207, 200, 200);
+                                font-size: 1.2rem;
+                                 font-weight: 700;
+                            }
+                        }
+                        >p{
+                            color: #8750f7;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
             }
         }
     }
