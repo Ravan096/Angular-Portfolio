@@ -716,6 +716,7 @@ main{
                 height: 100%;
                 /* border: 2px solid wheat; */
                 box-sizing: border-box;
+                border-radius: 20px;
                 width: 50%;
                 background-color: #140c1c;
                 >div{
