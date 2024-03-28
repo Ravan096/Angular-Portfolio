@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 main{
@@ -680,6 +681,339 @@ main{
                         >p{
                             color: #8750f7;
                             font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* --------------------------skill section style end----------------------- */
+
+
+
+/* --------------------------contact-section style start----------------------- */
+
+
+
+.contact-section{
+    /* border: 2px solid red; */
+    color: white;
+    height: 70vh;
+    >div{
+        height: 100%;
+        >div{
+            /* border: 2px solid crimson; */
+            box-sizing: border-box;
+            width: 80%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+
+
+            >div:first-child{
+                height: 100%;
+                /* border: 2px solid wheat; */
+                box-sizing: border-box;
+                width: 50%;
+                background-color: #140c1c;
+                >div{
+                    height: 100%;
+                    width: 80%;
+                    box-sizing: border-box;
+                    margin: auto;
+                    >div:first-child{
+                        height: 20%;
+                        /* border: 2px solid white; */
+                        box-sizing: border-box;
+                        >h2{
+                            font-size: 3rem;
+                                background: linear-gradient(to right, #8750f7, white);
+                                -webkit-background-clip: text;
+                                color: transparent;
+                                background-clip: text;
+                        }
+                        >p{
+                            font-size: 1.1rem;
+                            color: rgb(206, 196, 196);
+                            font-weight: 400;
+                        }
+                    }
+                    >div:last-child{
+                        height: 80%;
+                        /* border: 2px solid green; */
+                        box-sizing: border-box;
+                        >form{
+                            height: 100%;
+                            >div{
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-around;
+                                .form-div-1{
+                                    display: flex;
+                                    width: 100%;
+                                    /* border: 1px solid white; */
+                                    height: 15%;
+                                    >:first-child{
+                                        width: 50%;
+                                        /* border: 1px solid red; */
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        >input[type="text"]{
+                                            padding: 1.5vh 1vh;
+                                            background-color: black;
+                                            width: 80%;
+                                            border-radius: 10px;
+                                            color: white;
+                                            font-size: 1.8vh;
+                                            font-weight: 600;
+                                            letter-spacing: 1px;
+                                            &:focus{
+                                                border-color:#8750f7;
+                                                outline: none;
+                                            }
+
+                                            &::placeholder{
+                                                font-size: 1.8vh;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        
+                                    }
+
+                                    >:last-child{
+                                        width: 50%;
+                                        /* border: 1px solid red; */
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        >input[type="text"]{
+                                            padding: 1.5vh 1vh;
+                                            background-color: black;
+                                            width: 80%;
+                                            border-radius: 10px;
+                                            color: white;
+                                            font-size: 1.8vh;
+                                            font-weight: 600;
+                                            letter-spacing: 1px;
+                                            &:focus{
+                                                border-color:#8750f7;
+                                                outline: none;
+                                            }
+
+                                            &::placeholder{
+                                                font-size: 1.8vh;
+                                                font-weight: 600;
+                                            }
+                                        }
+
+                                    }
+                                }
+
+
+                                .form-div-2{
+                                    display: flex;
+                                    width: 100%;
+                                    /* border: 1px solid white; */
+                                    height: 15%;
+                                    >:first-child{
+                                        width: 50%;
+                                        /* border: 1px solid red; */
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        >input[type="email"]{
+                                            padding: 1.5vh 1vh;
+                                            background-color: black;
+                                            width: 80%;
+                                            border-radius: 10px;
+                                            color: white;
+                                            font-size: 1.8vh;
+                                            font-weight: 600;
+                                            letter-spacing: 1px;
+                                            &:focus{
+                                                border-color:#8750f7;
+                                                outline: none;
+                                            }
+
+                                            &::placeholder{
+                                                font-size: 1.8vh;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        
+                                    }
+
+                                    >:last-child{
+                                        width: 50%;
+                                        /* border: 1px solid red; */
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        >input[type="tel"]{
+                                            padding: 1.5vh 1vh;
+                                            background-color: black;
+                                            width: 80%;
+                                            border-radius: 10px;
+                                            color: white;
+                                            font-size: 1.8vh;
+                                            font-weight: 600;
+                                            letter-spacing: 1px;
+                                            &:focus{
+                                                border-color:#8750f7;
+                                                outline: none;
+                                            }
+
+                                            &::placeholder{
+                                                font-size: 1.8vh;
+                                                font-weight: 600;
+                                            }
+                                        }
+
+                                    }
+                                }
+
+
+                                .form-div-3{
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    height: 70%;
+                                    .form-div-3-01{
+                                        .tj-nice-select{
+                                            width: 92.7%; 
+                                            padding: 1.5vh 1vh; 
+                                            border-radius: 10px; 
+                                            background-color: black; 
+                                            font-size: 16px; 
+                                            color: white; 
+                                            -webkit-appearance: none;
+                                            -moz-appearance: none; 
+                                            appearance: none;
+                                            &:focus{
+                                                border-color:#8750f7;
+                                                outline: none;
+                                            }
+                                            &::placeholder{
+                                                font-size: 1.8vh;
+                                                font-weight: 600;
+                                            }
+                                            >option{
+                                                background-color: white;
+                                                color: black;
+                                                font-size: 1.8vh;
+                                                border-radius: 10px;
+
+                                            }
+                                        }
+                                    }
+                                    
+                                    .form-div-3-02{
+                                        >textarea{
+                                            padding: 1.5vh 1vh;
+                                            background-color: black;
+                                            width: 90%;
+                                            border-radius: 10px;
+                                            color: white;
+                                            font-size: 1.8vh;
+                                            font-weight: 600;
+                                            letter-spacing: 1px;
+                                            height: 150px;
+                                            &:focus{
+                                                border-color:#8750f7;
+                                                outline: none;
+                                            }
+
+                                            &::placeholder{
+                                                font-size: 1.8vh;
+                                                font-weight: 600;
+                                            }
+                                        }
+
+                                    }
+
+                                    .form-div-3-03{
+                                        >button{
+                                            padding: 1.7vh 3.5vh;
+                                            border-radius: 25px;
+                                            cursor: pointer;
+                                            text-decoration: none;
+                                            color: white;
+                                            background-image: linear-gradient(to right, #8750f7, black);
+                                            border: none;
+                                            display: inline-block;
+                                            transition: background-image 0.5s ease-out;
+                                            color: white;
+                                            text-decoration: none;
+                                            font-size:1.6vh;
+                                            font-weight: 700;
+                                            &:hover{
+                                                background-image: linear-gradient(to right, black, #8750f7);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+                
+            }
+
+
+            >div:last-child{
+                /* border: 2px solid white; */
+                width: 50%;
+                height: 100%;
+                >div{
+                    /* border: 2px solid saddlebrown; */
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    >ul{
+                        height: 70%;
+                        width: 70%;
+                        /* border: 2px solid white; */
+                        >li{
+                            list-style-type: none;
+                            height: 30%;
+                            display: flex;
+                            >div:first-child{
+                                /* border: 2px solid red; */
+                                width: 20%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                >i{
+                                    font-size: 1.5rem;
+                                    background-color: #7f45f3;
+                                    padding: 1rem;
+                                    border-radius: 50%;
+                                }
+                            }
+                            >div:last-child{
+                                /* border: 2px solid yellow; */
+                                width: 80%;
+                                display: flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                justify-content: center;
+                                >p{
+                                    font-size: 1.2rem;
+                                    color: rgb(212, 206, 206);
+                                    font-weight: 500;
+                                }
+                                >a{
+                                    text-decoration: none;
+                                    color: white;
+                                    font-size: 1.4rem;
+                                }
+                            }
                         }
                     }
                 }
