@@ -1,0 +1,105 @@
+.app-header{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.app-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 70%;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+
+.logo-box{
+    color: white;
+    /* border: 1px solid white; */
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >a img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+.header-info-list{
+    width: 20%;
+    /* border: 1px solid white; */
+}
+
+.header-info-list ul li{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+.header-menu{
+    /* border: 1px solid white; */
+    width: 60%;
+    >nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        >li {
+            list-style-type: none;
+            cursor: pointer;
+            >a{
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+            padding-bottom: 5px;
+            background-size: 0% 2px;
+            background-image: linear-gradient(to right, #8750f7, white);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            transition: background-size 0.4s ease-out;
+
+            &:hover{
+                background-size: 100% 2px; 
+            }
+
+            }
+
+        }
+    }
+}
+
+
+
+
+.header-button-div{
+    /* border: 1px solid white; */
+    width: 10%;
+}
+
+.header-button {
+    padding: 1.7vh 3.5vh;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #8750f7, black);
+    border: none;
+    display: inline-block;
+    transition: background-image 0.5s ease-out; 
+     a {
+        color: white;
+        text-decoration: none;
+        font-size:1.6vh;
+        font-weight: 700;
+    }
+    &:hover{
+        background-image: linear-gradient(to right, black, #8750f7);
+    }
+}
