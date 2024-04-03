@@ -1,4 +1,73 @@
-<p>ecommerce works!</p>
-<h1>
-    ecommerce working
-</h1>
+<section class="hotdealsection">
+    <div>
+        <h1>
+            Deal of the Day
+        </h1>
+    </div>
+
+    <div>
+        <div>
+            <div>
+                <img src="../../../assets/xd.svg" alt="">
+            </div>
+            <div>
+                <div>
+                    <h3>
+                        sample product
+                    </h3>
+                    <p>
+                        $price: 800
+                    </p>
+                    <p>
+                        rating: 4.4
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ---------------Hot deal section end----------------------- -->
+
+
+
+
+
+<!-- ---------------Product  section start----------------------- -->
+
+<section class="products">
+    <div>
+
+    
+    <div>
+        <h1>
+            Products
+        </h1>
+    </div>
+
+    <div>
+        <div *ngIf="products">
+            <!-- <a routerLink="productDetail" style="color: white; cursor: pointer; font-size: 2rem;">Hello</a> -->
+            <div *ngFor="let product of products">
+                <div>
+                <img [src]="product.image" alt="Product image">
+                <!-- <img src="../../../assets/xd.svg" alt=""> -->
+            </div>
+            <div>
+                <h3>
+                    {{getTruncatedTitle(product.title)}}
+                    <!-- {{ product.title }} -->
+                </h3>
+                <p>
+                    $price: {{ product.price }}
+                </p>
+                <p>
+                    rating: {{ product.rating?.rate }}
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ---------------Product  section end------------------------->
