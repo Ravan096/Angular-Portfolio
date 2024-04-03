@@ -2,16 +2,15 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { ProductdetailComponent } from '../productdetail/productdetail.component';
 
 @Component({
-  selector: 'app-ecommerce',
+  selector: 'app-productdetail',
   standalone: true,
-  imports: [HttpClientModule,CommonModule,ProductdetailComponent],
-  templateUrl: './ecommerce.component.html',
-  styleUrl: './ecommerce.component.css'
+  imports: [CommonModule,HttpClientModule],
+  templateUrl: './productdetail.component.html',
+  styleUrl: './productdetail.component.css'
 })
-export class EcommerceComponent {
+export class ProductdetailComponent {
   products: any[] = [];
   constructor(private http: HttpClient) { 
     this.fetchProducts();
@@ -19,18 +18,12 @@ export class EcommerceComponent {
     
 }
 
-
-getTruncatedTitle(title: string): string {
-  return title.split(' ').slice(0, 3).join(' ') + '...';
-}
-
-
 fetchProducts() {
-  this.http.get('https://fakestoreapi.com/products')
+  this.http.get('https://fakestoreapi.com/products/20')
     .subscribe((response: any) => {
       console.log(response);
       this.products = response;
-      console.log(response[0].images[1])
+      console.log(response.image)
     }, error => {
       console.error('Failed to fetch products', error);
     });

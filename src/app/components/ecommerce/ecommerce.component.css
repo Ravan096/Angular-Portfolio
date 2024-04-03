@@ -1,0 +1,154 @@
+/* <!-- ---------------hot deal section  section style start----------------------- --> */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hotdealsection{
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    height: 50vh;
+    >div:first-child{
+        /* border: 2px solid white; */
+        color: white;
+        height: 20%;
+        >h1{
+            color: #7f45f3;
+            /* border: 1px solid red; */
+            width: 50%;
+            font-size: 3rem;
+            margin: auto;
+            text-align: center;
+        }
+    }
+
+
+    >div:last-child{
+        /* border: 2px solid yellow; */
+        height: 80%;
+        box-sizing: border-box;
+        >div{
+            height: 100%;
+            width: 15%;
+            border-radius: 20px;
+            box-sizing: border-box;
+            transition: all 0.3s;
+            cursor: pointer;
+            >div:first-child{
+                height: 70%;
+                width: 100%;
+                >img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            >div:last-child{
+                /* border: 1px solid greenyellow; */
+                height: 30%;
+                width: 100%;
+                box-sizing: border-box;
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    height: 80%;
+                    width: 90%;
+                    margin: auto;
+                    >h3{
+                        color: white;
+                    }
+                    >p{
+                        color: white;
+                    }
+                }
+            }
+
+            &:hover{
+                border: 2px solid #7f45f3;
+            }
+        }
+    }
+}
+
+/* <!-- ---------------hot deal section  section style end----------------------- --> */
+
+
+
+
+/* <!-- ---------------product  section style start----------------------- --> */
+
+.products{
+    height: 100%;
+    width: 100%;
+    >div{
+        border: 2px solid red;
+        height: 100%;
+        width: 100%;
+
+        >div:first-child{
+            border: 2px solid white;
+            height: 20%;
+            width: 100%;
+            >h1{
+                color: white;
+                width: 30%;
+                height: 100%;
+                margin: auto;
+                text-align: center;
+                font-size: 3rem;
+                color: #7f45f3;
+            }
+        }
+
+        >div:last-child{
+            border: 2px solid yellow;
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            >div{
+                border: 2px solid red;
+                width: 100%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                >div{
+                    width: 12%;
+                    height: 35vh;
+                    border: 2px solid greenyellow;
+                    margin: 1vw;
+                    border-radius: 25px;
+                    >div:first-child{
+                        height: 70%;
+                        width: 100%;
+                        >img{
+                            height: 100%;
+                            width: 100%;
+                            border-radius: 25px 25px 0px 0px;
+                            /* object-fit: contain; */
+                        }
+                    }
+                    >div:last-child{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        height: 30%;
+                        width: 90%;
+                        margin: auto;
+                        >h3{
+                            color: white;
+                            font-size: 1rem;
+                        }
+                        >p{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
