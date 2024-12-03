@@ -1,11 +1,9 @@
 .hero-section{
-    /* border: 1px solid white; */
     color: white;
     height: 90vh;
 }
 
 .hero-section-container{
-    /* border: 2px solid red; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -13,15 +11,12 @@
 }
 
 .hero-section-container-first-div{
-    /* border: 2px solid rgb(43, 220, 20); */
     display: flex;
     >div:first-child{
-        /* border: 2px solid salmon; */
         display: flex;
         align-items: center;
         justify-content: center;
         >div{
-            /* border: 2px solid rgb(43,2220,20); */
             width: 65%;
             height: 100%;
             display: flex;
@@ -46,7 +41,6 @@
                 font-family: sans-serif;
             }
             .hero-section-container-first-div-button-section{
-                /* border: 2px solid white; */
                 color:#8750f7;
                 display: flex;
                 >a{
@@ -90,7 +84,6 @@
         }   
     }
     >div:last-child{
-        /* border:  2px solid white; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -118,10 +111,8 @@
 }
 
 .hero-section-container-second-div{
-    /* border: 2px solid greenyellow; */
 
     >div{
-        /* border: 2px solid indianred; */
         width: 80%;
         margin: auto;
         display: flex;
@@ -129,11 +120,9 @@
         justify-content: space-around;
 
         .hero-section-container-second-div-container{
-            /* border: 2px solid grey; */
             width: 25%;
             height: 100%;
             >div{
-                /* border: 2px solid yellow; */
                 width: 80%;
                 display: flex;
                 align-items: center;
@@ -166,15 +155,12 @@
 /* --------------service section style start here------------------ */
 
 .services-section{
-    /* border: 2px solid white; */
     margin-top: 5vh;
     color:  white;
 
     >div{
-        /* border: 2px solid rgb(247, 128, 128); */
 
         >div:first-child{
-            /* border: 2px solid greenyellow; */
             >div{
                 >div{
                     display: flex;
@@ -202,10 +188,8 @@
 
 
         >div:last-child{
-            /* border: 2px solid crimson; */
             >div{
                 >div{
-                    /* border: 1px solid darkcyan; */
                     width: 80%;
                     height: 100%;
                     margin: auto;
@@ -236,9 +220,7 @@
                         .right-box{
                             width: 35%;
                             height: 100%;
-                            /* border: 1px solid white; */
                             padding: 2rem;
-                            /* box-sizing: border-box; */
                             >p{
                                 font-size: 1rem;
                                 font-family: sans-serif;
@@ -286,13 +268,11 @@
 /* ----------------resume section style start here------------- */
 
 .resume-section{
-    /* border: 2px solid greenyellow; */
     height: 80vh;
     box-sizing: border-box;
     >div{
         height: 100%;
         >div{
-            /* border: 2px solid white; */
             width: 70%;
             height: 100%;
             color: wheat;
@@ -303,12 +283,10 @@
             box-sizing: border-box;
 
             >div:first-child{
-                /* border: 2px solid sandybrown; */
                 width: 45%;
                 height: 100%;
                 box-sizing: border-box;
                 >:first-child{
-                    /* border: 2px solid white; */
                     height: 20%;
                     display: flex;
                     flex-direction: column;
@@ -323,7 +301,6 @@
                 }
 
                 >:last-child{
-                    /* border: 2px solid rgb(187, 56, 56); */
                     height: 80%;
                     box-sizing: border-box;
                     display: flex;
@@ -332,7 +309,6 @@
                     >.fadeInLeft{
                         color: white;
                         width: 90%;
-                        /* border: 1px solid crimson; */
                         width: 100%;
                         height: 22%;
                         box-sizing: border-box;
@@ -370,12 +346,10 @@
             }
 
             >div:last-child{
-                /* border: 2px solid saddlebrown; */
                 width: 45%;
                 height: 100%;
                 box-sizing: border-box;
                 >:first-child{
-                    /* border: 2px solid white; */
                     height: 20%;
                     display: flex;
                     flex-direction: column;
@@ -390,7 +364,6 @@
                 }
 
                 >:last-child{
-                    /* border: 2px solid rgb(187, 56, 56); */
                     height: 80%;
                     box-sizing: border-box;
                     display: flex;
@@ -399,7 +372,6 @@
                     >.fadeInRight{
                         color: white;
                         width: 90%;
-                        /* border: 1px solid crimson; */
                         width: 100%;
                         height: 22%;
                         box-sizing: border-box;
@@ -449,7 +421,6 @@
 
 
 .skills-section{
-    /* border: 2px solid red; */
     color: white;
     height: 60vh;
     margin-top: 5rem;
@@ -458,7 +429,6 @@
         box-sizing: border-box;
         
         >div:first-child{
-            /* border: 2px solid purple; */
             width: 80%;
             margin: auto;
             height: 30%;
@@ -467,7 +437,6 @@
                 height: 100%;
                 >div{
                     width: 40%;
-                    /* border: 1px solid white; */
                     height: 100%;
                     margin: auto;
                     display: flex;
@@ -492,7 +461,6 @@
         }
 
         >div:last-child{
-            /* border: 2px solid green; */
             width: 80%;
             margin: auto;
             height: 70%;
@@ -505,7 +473,6 @@
                     justify-content: space-evenly;
                     align-items: center;
                     >.skill-item{
-                        /* border: 2px solid greenyellow; */
                         height: 55%;
                         width: 12%;
                         border-radius: 25px;
@@ -573,13 +540,11 @@
 
 
 .contact-section{
-    /* border: 2px solid red; */
     color: white;
     height: 70vh;
     >div{
         height: 100%;
         >div{
-            /* border: 2px solid crimson; */
             box-sizing: border-box;
             width: 80%;
             height: 100%;
@@ -589,7 +554,6 @@
 
             >div:first-child{
                 height: 100%;
-                /* border: 2px solid wheat; */
                 box-sizing: border-box;
                 border-radius: 20px;
                 width: 50%;
@@ -601,7 +565,6 @@
                     margin: auto;
                     >div:first-child{
                         height: 20%;
-                        /* border: 2px solid white; */
                         box-sizing: border-box;
                         >h2{
                             font-size: 3rem;
@@ -618,7 +581,6 @@
                     }
                     >div:last-child{
                         height: 80%;
-                        /* border: 2px solid green; */
                         box-sizing: border-box;
                         >form{
                             height: 100%;
@@ -630,11 +592,9 @@
                                 .form-div-1{
                                     display: flex;
                                     width: 100%;
-                                    /* border: 1px solid white; */
                                     height: 15%;
                                     >:first-child{
                                         width: 50%;
-                                        /* border: 1px solid red; */
                                         display: flex;
                                         align-items: center;
                                         justify-content: flex-start;
@@ -662,7 +622,6 @@
 
                                     >:last-child{
                                         width: 50%;
-                                        /* border: 1px solid red; */
                                         display: flex;
                                         align-items: center;
                                         justify-content: flex-start;
@@ -693,11 +652,9 @@
                                 .form-div-2{
                                     display: flex;
                                     width: 100%;
-                                    /* border: 1px solid white; */
                                     height: 15%;
                                     >:first-child{
                                         width: 50%;
-                                        /* border: 1px solid red; */
                                         display: flex;
                                         align-items: center;
                                         justify-content: flex-start;
@@ -725,7 +682,6 @@
 
                                     >:last-child{
                                         width: 50%;
-                                        /* border: 1px solid red; */
                                         display: flex;
                                         align-items: center;
                                         justify-content: flex-start;
@@ -843,24 +799,20 @@
 
 
             >div:last-child{
-                /* border: 2px solid white; */
                 width: 50%;
                 height: 100%;
                 >div{
-                    /* border: 2px solid saddlebrown; */
                     height: 100%;
                     display: flex;
                     align-items: center;
                     >ul{
                         height: 70%;
                         width: 70%;
-                        /* border: 2px solid white; */
                         >li{
                             list-style-type: none;
                             height: 30%;
                             display: flex;
                             >div:first-child{
-                                /* border: 2px solid red; */
                                 width: 20%;
                                 display: flex;
                                 align-items: center;
@@ -873,7 +825,6 @@
                                 }
                             }
                             >div:last-child{
-                                /* border: 2px solid yellow; */
                                 width: 80%;
                                 display: flex;
                                 align-items: flex-start;
