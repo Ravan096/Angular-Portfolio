@@ -6,16 +6,13 @@
 }
 
 .hotdealsection{
-    /* border: 2px solid red; */
     box-sizing: border-box;
     height: 50vh;
     >div:first-child{
-        /* border: 2px solid white; */
         color: white;
         height: 20%;
         >h1{
             color: #7f45f3;
-            /* border: 1px solid red; */
             width: 50%;
             font-size: 3rem;
             margin: auto;
@@ -25,7 +22,6 @@
 
 
     >div:last-child{
-        /* border: 2px solid yellow; */
         height: 80%;
         box-sizing: border-box;
         >div{
@@ -44,7 +40,6 @@
                 }
             }
             >div:last-child{
-                /* border: 1px solid greenyellow; */
                 height: 30%;
                 width: 100%;
                 box-sizing: border-box;
@@ -126,7 +121,6 @@
                             height: 100%;
                             width: 100%;
                             border-radius: 25px 25px 0px 0px;
-                            /* object-fit: contain; */
                         }
                     }
                     >div:last-child{
