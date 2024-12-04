@@ -26,11 +26,12 @@ getTruncatedTitle(title: string): string {
 
 
 fetchProducts() {
-  this.http.get('https://fakestoreapi.com/products')
+  this.http.get('https://fakestoreapi.in/api/products')
     .subscribe((response: any) => {
       console.log(response);
-      this.products = response;
-      console.log(response[0].images[1])
+      console.log(response.products);
+      this.products = response.products;
+      // console.log(response[0].images[1])
     }, error => {
       console.error('Failed to fetch products', error);
     });
