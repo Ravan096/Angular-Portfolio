@@ -1,3 +1,183 @@
+<section class="offerdealsection">
+    <div>
+        <div>
+            <div>
+                <h3>
+                    Up To 50% Off
+                </h3>
+                <h2>
+                    Grab Your favorites
+                    before they're gone
+                </h2>
+                <p>
+                    You can trust us to bring you the latest technology at unbeatable prices. Don’t miss this
+                    limited-time opportunity to upgrade your audio game. Grab your perfect pair now!
+                </p>
+                <button>
+                    shop now
+                </button>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="../../../assets/headphone-01.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------------------- madness deal start here--------------------------------->
+<section class="madnessdealsection">
+    <div>
+        <div>
+            <h3>
+                unbelievable discount await you
+            </h3>
+
+            <h2>your madness deal is here</h2>
+            <div>
+                <span></span>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div>
+                <div>
+                    <img src="../../../assets/8-product-400x463.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Nexatone Headsets</h2>
+                    <h3>*****</h3>
+                    <span>
+                        <del>
+                            <span>
+                                $270.00
+                            </span>
+                        </del>
+                        <ins>
+                            <span>
+                                $110.00
+                            </span>
+                        </ins>
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="../../../assets/7-product-400x463.jpg" alt="">
+                </div>
+                <div>
+                    <h2>EchoPulse SoundGear</h2>
+                    <h3>*****</h3>
+                    <span>
+                        <del>
+                            <span>
+                                $155.00
+                            </span>
+                        </del>
+                        <ins>
+                            <span>
+                                $99.00
+                            </span>
+                        </ins>
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="../../../assets/6-product-400x463.jpg" alt="">
+                </div>
+                <div>
+                    <h2>AudioSculpt Elite</h2>
+                    <h3>*****</h3>
+                    <span>
+                        <del>
+                            <span>
+                                $375.00
+                            </span>
+                        </del>
+                        <ins>
+                            <span>
+                                $235.00
+                            </span>
+                        </ins>
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="../../../assets/5-product-400x463.jpg" alt="">
+                </div>
+                <div>
+                    <h2>SonoWave Headphones</h2>
+                    <h3>*****</h3>
+                    <span>
+                        <del>
+                            <span>
+                                $295.00
+                            </span>
+                        </del>
+                        <ins>
+                            <span>
+                                $125.00
+                            </span>
+                        </ins>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!--------------------------- madness deal end here------------------------------- -->
+
+
+
+<!-------------------Latest Product Section Start---------------------------->
+<section class="latestProductSection">
+    <div>
+        <div>
+            <h3>
+                Our latest Products
+            </h3>
+            <p>Check out all of our products</p>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <img src="../../../assets/men-01.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Classic Spring</h4>
+                    <span>$120.00</span>
+                    <ul>
+                        <li>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-------------------Latest Product Section End---------------------------->
+
+<!-------------------------------------- hot deal start here--------------------------- -->
+
 <section class="hotdealsection">
     <div>
         <h1>
@@ -37,37 +217,36 @@
 <section class="products">
     <div>
 
-    
-    <div>
-        <h1>
-            Products
-        </h1>
-    </div>
 
-    <div>
-        <div *ngIf="products">
-            <a routerLink="productDetail" style="color: white; cursor: pointer; font-size: 2rem;">Hello</a>
-            <div *ngFor="let product of products">
-                <div>
-                <img [src]="product.image" alt="Product image">
-                <!-- <img src="../../../assets/xd.svg" alt=""> -->
-            </div>
-            <div>
-                <h3>
-                    {{getTruncatedTitle(product.title)}}
-                    <!-- {{ product.title }} -->
-                </h3>
-                <p>
-                    $price: {{ product.price }}
-                </p>
-                <p>
-                    rating: {{ product.rating?.rate }}
-                </p>
-            </div>
+        <div>
+            <h1>
+                Products
+            </h1>
         </div>
+
+        <div>
+            <div *ngIf="products">
+                <div *ngFor="let product of products">
+                    <div>
+                        <img [src]="product.image" alt="Product image">
+                        <!-- <img src="../../../assets/xd.svg" alt=""> -->
+                    </div>
+                    <div>
+                        <h3>
+                            {{getTruncatedTitle(product.title)}}
+                            <!-- {{ product.title }} -->
+                        </h3>
+                        <p>
+                            $price: {{ product.price }}
+                        </p>
+                        <p>
+                            color: {{ product.color }}
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 </section>
 
 <!-- ---------------Product  section end------------------------->

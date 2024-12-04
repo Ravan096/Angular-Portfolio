@@ -1,3 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=League+Gothic&display=swap');
+
+/* <!-- ---------------offer deal section  section style start----------------------- --> */
+.offerdealsection{
+    box-sizing: border-box;
+    >div{
+        box-sizing: border-box;
+        padding: 10px;
+        display: flex;
+        width: 80%;
+        margin: auto;
+        background-image: url('../../../assets/bg-006.jpg');
+        color: white;
+
+        >div:first-child{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            >div{
+                height: 80%;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1.5rem;
+                >h3{
+                    color: #ff4955;
+                    line-height: 1.2em;
+                    font-size: 1.875rem;
+                    text-transform: capitalize;
+                    font-family: 'Kaushan Script', handwriting;
+                }
+                h2{
+                    line-height: 0.8em;
+                    font-size: 4.875rem;
+                    text-transform: uppercase;
+                    font-family: 'League Gothic', sans-serif;
+                    clear: both;
+                }
+                >p{
+                    margin-bottom: 0.5em;
+                    vertical-align: baseline;
+                }
+                >button{
+                    cursor: pointer;
+                    font-size: 1.25rem;
+                    border: none;
+                    letter-spacing: 2px;
+                    line-height: 2em;
+                    text-transform: uppercase;
+                    font-family: 'League Gothic', sans-serif;
+                    background-color: #fc3746;
+                    color: white;
+                    padding: 8px 26px;
+                    width: 150px;
+                }
+            }
+
+        }
+        >div:last-child{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            >div{
+                height: 80%;
+                width: 80%;
+                >img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+
+        }
+    }
+}
+/* <!-- ---------------offer deal section  section style end----------------------- --> */
+
+
+
+
+
+/* -------------------------------madness deal section style start---------------------------- */
+
+.madnessdealsection{
+    /* border: 2px solid red; */
+    >div{
+        /* border: 2px solid greenyellow; */
+        width: 80%;
+        margin: auto;
+        color: white;
+
+        >div:first-child{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            >h3{
+                color: #ff4955;
+                line-height: 1.2em;
+                font-size: 1.875rem;
+                text-transform: capitalize;
+                font-family: 'Kaushan Script', handwriting;
+            }
+            h2{
+                line-height: 0.8em;
+                font-size: 4.875rem;
+                text-transform: uppercase;
+                font-family: 'League Gothic', sans-serif;
+                clear: both;
+            }
+            >div{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                >span{
+                    margin-top: 10px;
+                    width: 10%;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0.5%;
+                    border-bottom: 2px solid white;
+                }
+            }
+        }
+
+        >div:last-child{
+            display: flex;
+            justify-content: space-between;
+            >div{
+                /* border: 2px solid purple; */
+                width: 24%;
+                >div:first-child{
+                    width: 100%;
+                    >img{
+                        width: 100%;
+                    }
+                }
+                >div:last-child{
+                    >h2{
+                        text-transform: uppercase;
+                        font-family: 'League Gothic', sans-serif;
+                        font-size: 1.5rem;
+                        line-height: 0.8em;
+                        clear: both;
+                        unicode-bidi: isolate;
+                    }
+                    >h3{
+                        color: #ff4955;
+                        font-size: 0.857em;
+                    }
+                    >span{
+                        >del{
+                            color: gray;
+                            >span{
+                                font-size: 0.9em;
+                                font-weight: bold;
+                                color: gray;
+                            }
+                        }
+                        >ins{
+                            text-decoration: none;
+                            >span{
+                                font-weight: bold;
+                                text-decoration: none;
+                                text-underline-offset: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* -------------------------------madness deal section end start---------------------------- */
+
+
+
+
+
+/*---------------------------------Latest Product Section start here-------------------------- */
+
+.latestProductSection{
+    border: 2px solid red;
+    background-color: white;
+}
+/*---------------------------------Latest Product Section end here-------------------------- */
+
+
+
+
+
+
 /* <!-- ---------------hot deal section  section style start----------------------- --> */
 
 *{
