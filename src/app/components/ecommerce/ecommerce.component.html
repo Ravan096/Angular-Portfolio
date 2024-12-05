@@ -151,23 +151,24 @@
             <p>Check out all of our products</p>
         </div>
         <div>
-            <div>
-                <div>
-                    <img src="../../../assets/men-01.jpg" alt="">
-                </div>
-                <div>
-                    <h4>Classic Spring</h4>
-                    <span>$120.00</span>
-                    <ul>
-                        <li>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </li>
-                    </ul>
-                </div>
+
+            <div *ngFor="let product of Latestproducts">
+                    <div>
+                        <img [src]="product.image" [alt]="product.name">
+                    </div>
+                    <div>
+                        <h4>{{product.name}}</h4>
+                        <span>{{product.price}}</span>
+                        <ul>
+                            <li>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
             </div>
         </div>
     </div>
